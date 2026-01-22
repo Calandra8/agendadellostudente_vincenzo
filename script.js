@@ -24,7 +24,7 @@ function setupEventListeners() {
     document.getElementById('compitiForm').addEventListener('submit', handleCompitiSubmit);
     
     // Appunti form
-  // Sezione Appunti → creazione appunto + pulsante PDF + pulsante elimina
+  // Sezione Appunti â†’ creazione appunto + pulsante PDF + pulsante elimina
 document.getElementById("appuntiForm").addEventListener("submit", function(event) {
     event.preventDefault();
 
@@ -41,7 +41,7 @@ document.getElementById("appuntiForm").addEventListener("submit", function(event
 
     // Pulsante PDF
     const btnPDF = document.createElement("button");
-    btnPDF.textContent = "📄";
+    btnPDF.textContent = "ðŸ“„";
     btnPDF.title = "Scarica PDF";
     btnPDF.classList.add("pdf-btn");
 
@@ -59,7 +59,7 @@ document.getElementById("appuntiForm").addEventListener("submit", function(event
 
     // Pulsante elimina
     const btnDelete = document.createElement("button");
-    btnDelete.textContent = "🗑️";
+    btnDelete.textContent = "ðŸ—‘ï¸";
     btnDelete.title = "Rimuovi appunto";
     btnDelete.classList.add("delete-btn");
 
